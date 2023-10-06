@@ -7,8 +7,16 @@
     font-size: 11px;
   }
 
+  h4 {
+    font-size: 1.2rem !important;
+  }
+
+  h5 {
+    font-size: 1rem !important;
+  }
+
   p {
-    font-size: 14px;
+    font-size: .8rem !important;
   }
 
   .section-aboutme {
@@ -17,6 +25,10 @@
 
   .photo-aboutme img {
     width: 90%;
+  }
+
+  .section-experience {
+    padding-top: 10rem;
   }
 }
 
