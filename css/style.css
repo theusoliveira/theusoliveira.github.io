@@ -1,10 +1,11 @@
 body {
-  background: #fff;
+  background: #272727;
   color: rgba(255, 255, 255, 0.4);
   background: #222;
   line-height: 1.7;
   font-size: 16px;
   font-weight: 300;
+  color: #ccc;
 }
 
 h1, h2, h3, h4, h5 {
@@ -13,7 +14,6 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
-  text-align: center;
   margin: 5px 0 -20px 0;
 }
 
@@ -38,7 +38,7 @@ p {
 }
 
 .lds-roller div:after {
-  content: " ";
+  content: "";
   display: block;
   position: absolute;
   width: 7px;
@@ -220,4 +220,22 @@ p {
 .social-icons .social-icon:hover {
   color: #fff;
   text-decoration: none;
+}
+
+.section-aboutme {
+  font-weight: 400;
+  font-size: 18px;
+  height: 100vh;
+  padding-top: 15rem;
+}
+
+.photo-aboutme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
 }

@@ -6,6 +6,18 @@
   .description {
     font-size: 11px;
   }
+
+  p {
+    font-size: 14px;
+  }
+
+  .section-aboutme {
+    padding-top: 5rem;
+  }
+
+  .photo-aboutme img {
+    width: 90%;
+  }
 }
 
 @media (max-height: 568px) {
