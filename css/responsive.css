@@ -30,6 +30,12 @@
   .section-experience {
     padding-top: 10rem;
   }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-height: 568px) {
