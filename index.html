@@ -1,534 +1,504 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PEGMA IT - Soluções Cloud de Alta Performance</title>
-    <meta name="description" content="Transforme seu negócio com soluções Cloud da PEGMA IT. Serviços completos de computação em nuvem para empresas que buscam inovação e segurança.">
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PEGMA IT - Soluções Cloud de Alta Performance</title>
+        <meta name="description" content="Transforme seu negócio com soluções Cloud da PEGMA IT. Serviços completos de computação em nuvem para empresas que buscam inovação e segurança.">
+        
+        <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <img class="logo_square" src="./images/logo_site.png" />
-            <nav class="nav">
-                <a href="#inicio">Início</a>
-                <a href="#servicos">Serviços</a>
-                <a href="#cases">Cases de Sucesso</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#contato">Contato</a>
-            </nav>
-            <!-- <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a> -->
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">
-                <i data-lucide="menu"></i>
-            </button>
-        </div>
-    </header>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Mobile Menu Sidebar -->
-    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
-    <div class="mobile-menu-sidebar" id="mobileMenuSidebar">
-        <div class="mobile-menu-header">
-            <img class="logo_square" src="./images/logo_site.png" />
-            <button class="mobile-menu-close" id="mobileMenuClose">
-                <i data-lucide="x"></i>
-            </button>
-        </div>
-        <nav class="mobile-menu-nav">
-            <a href="#inicio" class="mobile-menu-link">Início</a>
-            <a href="#servicos" class="mobile-menu-link">Serviços</a>
-            <a href="#cases" class="mobile-menu-link">Cases de Sucesso</a>
-            <a href="#sobre" class="mobile-menu-link">Sobre</a>
-            <a href="#contato" class="mobile-menu-link">Contato</a>
-            <!-- <a href="#contato" class="btn btn-primary mobile-menu-cta">
-                <i data-lucide="arrow-right" size="18"></i>
-                Solicitar Orçamento
-            </a> -->
-        </nav>
-    </div>
+    </head>
 
-    <!-- Hero Section -->
-    <section id="inicio" class="hero">
-        <div class="container">
-            <div class="hero-content fade-in">
-                <div class="hero-icon">
-                    <i data-lucide="cloud" size="80" style="color: var(--primary-blue);"></i>
-                </div>
-                <h1>Transforme seu negócio com soluções Azure Cloud de alta performance</h1>
-                <p>A PEGMA IT oferece serviços completos de computação em nuvem para pequenas e médias empresas, startups e setor público que buscam inovação, segurança e escalabilidade</p>
-                <a href="#contato" class="btn btn-primary">
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <img class="logo_square" src="./images/logo_site.png" />
+                <nav class="nav">
+                    <a href="#inicio">Início</a>
+                    <a href="#servicos">Serviços</a>
+                    <a href="#cases">Cases de Sucesso</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+                <!-- <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a> -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- Mobile Menu Sidebar -->
+        <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+        <div class="mobile-menu-sidebar" id="mobileMenuSidebar">
+            <div class="mobile-menu-header">
+                <img class="logo_square" src="./images/logo_site.png" />
+                <button class="mobile-menu-close" id="mobileMenuClose">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <nav class="mobile-menu-nav">
+                <a href="#inicio" class="mobile-menu-link">Início</a>
+                <a href="#servicos" class="mobile-menu-link">Serviços</a>
+                <a href="#cases" class="mobile-menu-link">Cases de Sucesso</a>
+                <a href="#sobre" class="mobile-menu-link">Sobre</a>
+                <a href="#contato" class="mobile-menu-link">Contato</a>
+                <!-- <a href="#contato" class="btn btn-primary mobile-menu-cta">
                     <i data-lucide="arrow-right" size="18"></i>
                     Solicitar Orçamento
-                </a>
-            </div>
+                </a> -->
+            </nav>
         </div>
-    </section>
 
-    <!-- Services Section -->
-    <section id="servicos" class="services">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Nossos Serviços</h2>
-                <p>Soluções completas em cloud computing para impulsionar seu negócio</p>
-            </div>
-            <div class="services-grid">
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="trending-up" size="24"></i>
+        <!-- Hero Section -->
+        <section id="inicio" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-icon">
+                        <!-- <i class="fa-solid fa-cloud" size="80" style="color: var(--primary-blue);"></i> -->
                     </div>
-                    <h3>Roadmap claro para evolução em cloud</h3>
-                    <p>Assessment de Maturidade Digital</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="server" size="24"></i>
-                    </div>
-                    <h3>DevOps as a Service</h3>
-                    <p>Modernização de aplicações legadas para contêineres e automação das esteiras de deployment</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="dollar-sign" size="24"></i>
-                    </div>
-                    <h3>Gastos sob controle e mais eficiência</h3>
-                    <p>Gestão de custos com FinOps, Implantação de gerenciamento de custos por IA</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="eye" size="24"></i>
-                    </div>
-                    <h3>Observabilidade de Aplicações</h3>
-                    <p>Monitoramento proativo e redução de falhas</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="upload-cloud" size="24"></i>
-                    </div>
-                    <h3>Migração e Operação em Cloud</h3>
-                    <p>Análise completa, migração e planejamento personalizado, para modernização de cloud</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="key" size="24"></i>
-                    </div>
-                    <h3>Autenticação centralizada e segura</h3>
-                    <p>Keycloak/Auth0 (SSO, IAM)</p>
-                </div>
-                <div class="service-card fade-in">
-                    <div class="service-icon">
-                        <i data-lucide="brick-wall-shield" size="24"></i>
-                    </div>
-                    <h3>Proteção contra ataques e vulnerabilidades</h3>
-                    <p>WAF e Segurança de Aplicações</p>
+                    <h1>Transforme seu negócio com soluções Azure Cloud de alta performance</h1>
+                    <p>A PEGMA IT oferece serviços completos de computação em nuvem para pequenas e médias empresas, startups e setor público que buscam inovação, segurança e escalabilidade</p>
+                    <a href="#contato" class="btn btn-primary">
+                        <i class="fa-solid fa-arrow-right" size="18"></i>
+                        Solicitar Orçamento
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Cases de Sucesso Section -->
-    <section id="cases" class="cases">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Cases de Sucesso</h2>
-                <p>Conheça os resultados reais que entregamos aos nossos clientes</p>
-            </div>
-            <div class="cases-grid">
-                <!-- Case 1: Redução de Custos -->
-                <div class="case-card fade-in">
-                    <span class="case-icon">🚀</span>
-                    <h3>Reduzimos 44% do Custo de Infraestrutura em Cloud</h3>
-                    <p>Em um projeto em que atuamos no setor logístico, identificamos altos custos em uma infraestrutura em nuvem que ultrapassava R$ 1 milhão por trimestre. Nosso desafio era reduzir despesas sem impactar a performance das aplicações críticas.</p>
-                    <p>Após uma análise detalhada, implementamos escalonamento automático (autoscaling) e otimizamos a ingestão e retenção de logs, ajustando os recursos conforme a demanda real.</p>
-                    <div class="case-highlight">
-                        ✓ Redução de 44% nos custos de cloud, mantendo alta disponibilidade e desempenho
-                    </div>
-                    <p>Esse projeto reforça como nossas práticas de FinOps e automação podem gerar eficiência e sustentabilidade financeira em ambientes de nuvem complexos.</p>
-                    <div class="case-cta">
-                        🔍 Quer reduzir seus custos em cloud com segurança e performance? Fale com a gente e descubra como podemos ajudar.
-                    </div>
+        <!-- Services Section -->
+        <section id="servicos" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nossos Serviços</h2>
+                    <p>Soluções completas em cloud computing para impulsionar seu negócio</p>
                 </div>
-
-                <!-- Case 2: Azure DevOps -->
-                <div class="case-card fade-in">
-                    <span class="case-icon">⚙️</span>
-                    <h3>Como o Azure DevOps Transformou o Fluxo de Entregas em um Projeto de Logística</h3>
-                    <p>Durante um projeto no setor logístico, identificamos que boa parte dos atrasos nas entregas de software vinha de processos manuais e desconectados entre as equipes. Cada área usava ferramentas diferentes, e isso tornava o ciclo de deploy lento e difícil de rastrear.</p>
-                    <p>Para mudar esse cenário, ajudamos o time a adotar o Azure DevOps como plataforma central de colaboração. Estruturamos pipelines automatizados de build e release, configuramos políticas de versionamento e criamos dashboards de visibilidade para acompanhar todo o ciclo de entrega.</p>
-                    <div class="case-highlight">
-                        ✓ Entregas mais previsíveis, redução de incidentes e maior autonomia do time
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-arrow-trend-up" size="24"></i>
+                        </div>
+                        <h3>Roadmap claro para evolução em cloud</h3>
+                        <p>Assessment de Maturidade Digital</p>
                     </div>
-                    <p>Hoje, o ambiente está mais integrado, com processos ágeis, rastreáveis e alinhados às práticas DevSecOps.</p>
-                    <div class="case-cta">
-                        💡 Quer modernizar seu fluxo de desenvolvimento com o Azure DevOps? Entre em contato e veja como podemos apoiar sua transformação digital.
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-server" size="24"></i>
+                        </div>
+                        <h3>DevOps as a Service</h3>
+                        <p>Modernização de aplicações legadas para contêineres e automação das esteiras de deployment</p>
                     </div>
-                </div>
-
-                <!-- Case 3: SonarCloud -->
-                <div class="case-card fade-in">
-                    <span class="case-icon">💡</span>
-                    <h3>Implantação do SonarCloud e Evolução da Qualidade de Código</h3>
-                    <p>Durante um projeto em ambiente multi-time, percebemos que a qualidade do código variava bastante entre os serviços. Cada equipe tinha seu próprio padrão de revisão e ferramentas diferentes, o que dificultava manter uma governança consistente sobre segurança e boas práticas de desenvolvimento.</p>
-                    <p>Para resolver isso, implantamos o SonarCloud como solução central de análise estática de código (SAST). A ferramenta foi integrada diretamente aos pipelines de CI/CD, garantindo que cada commit passasse automaticamente por verificações de bugs, vulnerabilidades e code smells antes de seguir para o próximo estágio.</p>
-                    <p>Além disso, criamos painéis de monitoramento de qualidade e definimos políticas de bloqueio para impedir o avanço de builds com falhas críticas — fortalecendo a cultura de responsabilidade compartilhada sobre segurança e qualidade.</p>
-                    <div class="case-highlight">
-                        ✓ Ambiente de desenvolvimento mais padronizado, seguro e sustentável
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-dollar-sign" size="24"></i>
+                        </div>
+                        <h3>Gastos sob controle e mais eficiência</h3>
+                        <p>Gestão de custos com FinOps, Implantação de gerenciamento de custos por IA</p>
                     </div>
-                    <div class="case-cta">
-                        🧭 Quer elevar a maturidade do seu time com o SonarCloud? Entre em contato e veja como podemos integrar qualidade e segurança no seu pipeline DevSecOps.
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-eye" size="24"></i>
+                        </div>
+                        <h3>Observabilidade de Aplicações</h3>
+                        <p>Monitoramento proativo e redução de falhas</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-cloud-arrow-up" size="24"></i>
+                        </div>
+                        <h3>Migração e Operação em Cloud</h3>
+                        <p>Análise completa, migração e planejamento personalizado, para modernização de cloud</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-key" size="24"></i>
+                        </div>
+                        <h3>Autenticação centralizada e segura</h3>
+                        <p>Keycloak/Auth0 (SSO, IAM)</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-shield-halved" size="24"></i>
+                        </div>
+                        <h3>Proteção contra ataques e vulnerabilidades</h3>
+                        <p>WAF e Segurança de Aplicações</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Benefits Section -->
-    <section id="sobre" class="benefits">
-        <div class="container">
-            <div class="section-title fade-in">
-                <h2>Por que escolher a PEGMA IT?</h2>
-                <p>Somos especialistas em levar sua empresa para a nuvem com segurança e eficiência</p>
-            </div>
-            <div class="benefits-grid">
-                <div class="benefit-item fade-in">
-                    <div class="benefit-icon">
-                        <i data-lucide="trophy" size="20"></i>
-                    </div>
-                    <div class="benefit-content">
-                        <h4>Especialistas em Microsoft Azure</h4>
-                        <p>Somos certificados em uma plataforma robusta e confiável</p>
-                    </div>
+        <!-- Cases de Sucesso Section -->
+        <section id="cases" class="cases">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Cases de Sucesso</h2>
+                    <p>Conheça os resultados reais que entregamos aos nossos clientes</p>
                 </div>
-                <div class="benefit-item fade-in">
-                    <div class="benefit-icon">
-                        <i data-lucide="brain-circuit" size="20"></i>
+                <div class="cases-grid">
+                    <!-- Case 1: Redução de Custos -->
+                    <div class="case-card">
+                        <span class="case-icon">🚀</span>
+                        <h3>Reduzimos 44% do Custo de Infraestrutura em Cloud</h3>
+                        <p>Em um projeto em que atuamos no setor logístico, identificamos altos custos em uma infraestrutura em nuvem que ultrapassava R$ 1 milhão por trimestre. Nosso desafio era reduzir despesas sem impactar a performance das aplicações críticas.</p>
+                        <p>Após uma análise detalhada, implementamos escalonamento automático (autoscaling) e otimizamos a ingestão e retenção de logs, ajustando os recursos conforme a demanda real.</p>
+                        <div class="case-highlight">
+                            ✓ Redução de 44% nos custos de cloud, mantendo alta disponibilidade e desempenho
+                        </div>
+                        <p>Esse projeto reforça como nossas práticas de FinOps e automação podem gerar eficiência e sustentabilidade financeira em ambientes de nuvem complexos.</p>
+                        <div class="case-cta">
+                            🔍 Quer reduzir seus custos em cloud com segurança e performance? Fale com a gente e descubra como podemos ajudar.
+                        </div>
                     </div>
-                    <div class="benefit-content">
-                        <h4>Utilização de IA</h4>
-                        <p>Utilizamos inteligência artificial para automatização dos processos</p>
-                    </div>
-                </div>
-                <div class="benefit-item fade-in">
-                    <div class="benefit-icon">
-                        <i data-lucide="trending-up" size="20"></i>
-                    </div>
-                    <div class="benefit-content">
-                        <h4>Escalabilidade Automática</h4>
-                        <p>Recursos que crescem conforme sua demanda</p>
-                    </div>
-                </div>
-                <div class="benefit-item fade-in">
-                    <div class="benefit-icon">
-                        <i data-lucide="dollar-sign" size="20"></i>
-                    </div>
-                    <div class="benefit-content">
-                        <h4>Custos Competitivos</h4>
-                        <!-- <p>Pague apenas pelo que usar, sem desperdícios</p> -->
-                        <p>Investimento atrativo com alto retorno para seu negócio</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section id="contato" class="cta-section">
-        <div class="container">
-            <div class="fade-in">
-                <h2>Pronto para dar o próximo passo?</h2>
-                <p>Entre em contato conosco e descubra como podemos acelerar sua transformação digital</p>
-                
-                <form class="contact-form" id="contactForm">
-                    <div class="success-message" id="successMessage">
-                        Mensagem enviada com sucesso! Entraremos em contato em breve.
+                    <!-- Case 2: Azure DevOps -->
+                    <div class="case-card">
+                        <span class="case-icon">⚙️</span>
+                        <h3>Como o Azure DevOps Transformou o Fluxo de Entregas em um Projeto de Logística</h3>
+                        <p>Durante um projeto no setor logístico, identificamos que boa parte dos atrasos nas entregas de software vinha de processos manuais e desconectados entre as equipes. Cada área usava ferramentas diferentes, e isso tornava o ciclo de deploy lento e difícil de rastrear.</p>
+                        <p>Para mudar esse cenário, ajudamos o time a adotar o Azure DevOps como plataforma central de colaboração. Estruturamos pipelines automatizados de build e release, configuramos políticas de versionamento e criamos dashboards de visibilidade para acompanhar todo o ciclo de entrega.</p>
+                        <div class="case-highlight">
+                            ✓ Entregas mais previsíveis, redução de incidentes e maior autonomia do time
+                        </div>
+                        <p>Hoje, o ambiente está mais integrado, com processos ágeis, rastreáveis e alinhados às práticas DevSecOps.</p>
+                        <div class="case-cta">
+                            💡 Quer modernizar seu fluxo de desenvolvimento com o Azure DevOps? Entre em contato e veja como podemos apoiar sua transformação digital.
+                        </div>
                     </div>
+
+                    <!-- Case 3: SonarCloud -->
+                    <div class="case-card">
+                        <span class="case-icon">💡</span>
+                        <h3>Implantação do SonarCloud e Evolução da Qualidade de Código</h3>
+                        <p>Durante um projeto em ambiente multi-time, percebemos que a qualidade do código variava bastante entre os serviços. Cada equipe tinha seu próprio padrão de revisão e ferramentas diferentes, o que dificultava manter uma governança consistente sobre segurança e boas práticas de desenvolvimento.</p>
+                        <p>Para resolver isso, implantamos o SonarCloud como solução central de análise estática de código (SAST). A ferramenta foi integrada diretamente aos pipelines de CI/CD, garantindo que cada commit passasse automaticamente por verificações de bugs, vulnerabilidades e code smells antes de seguir para o próximo estágio.</p>
+                        <p>Além disso, criamos painéis de monitoramento de qualidade e definimos políticas de bloqueio para impedir o avanço de builds com falhas críticas — fortalecendo a cultura de responsabilidade compartilhada sobre segurança e qualidade.</p>
+                        <div class="case-highlight">
+                            ✓ Ambiente de desenvolvimento mais padronizado, seguro e sustentável
+                        </div>
+                        <div class="case-cta">
+                            🧭 Quer elevar a maturidade do seu time com o SonarCloud? Entre em contato e veja como podemos integrar qualidade e segurança no seu pipeline DevSecOps.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="sobre" class="benefits">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Por que escolher a PEGMA IT?</h2>
+                    <p>Somos especialistas em levar sua empresa para a nuvem com segurança e eficiência</p>
+                </div>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-trophy" size="20"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Especialistas em Microsoft Azure</h4>
+                            <p>Somos certificados em uma plataforma robusta e confiável</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-brain" size="20"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Utilização de IA</h4>
+                            <p>Utilizamos inteligência artificial para automatização dos processos</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-arrow-trend-up" size="20"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Escalabilidade Automática</h4>
+                            <p>Recursos que crescem conforme sua demanda</p>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fa-solid fa-dollar-sign" size="20"></i>
+                        </div>
+                        <div class="benefit-content">
+                            <h4>Custos Competitivos</h4>
+                            <!-- <p>Pague apenas pelo que usar, sem desperdícios</p> -->
+                            <p>Investimento atrativo com alto retorno para seu negócio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="contato" class="cta-section">
+            <div class="container">
+                <div>
+                    <h2>Pronto para dar o próximo passo?</h2>
+                    <p>Entre em contato conosco e descubra como podemos acelerar sua transformação digital</p>
                     
-                    <div class="form-group">
-                        <label for="nome">Nome Completo *</label>
-                        <input type="text" id="nome" name="nome" required>
-                        <div class="error-message" id="nomeError">Por favor, informe seu nome completo.</div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">E-mail *</label>
-                        <input type="email" id="email" name="email" required>
-                        <div class="error-message" id="emailError">Por favor, informe um e-mail válido.</div>
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="empresa">Empresa</label>
-                        <input type="text" id="empresa" name="empresa">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="mensagem">Mensagem *</label>
-                        <textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre suas necessidades em cloud computing..." required></textarea>
-                        <div class="error-message" id="mensagemError">Por favor, descreva suas necessidades.</div>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary" style="width: 100%; background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));">
-                        <i data-lucide="send" size="18"></i>
-                        Falar com Especialista
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>PEGMA IT</h3>
-                    <p>Transformando empresas através da computação em nuvem com soluções inovadoras, seguras e escaláveis.</p>
-                </div>
-                <div class="footer-section">
-                    <!-- <h3>Serviços</h3>
-                    <p><a href="#servicos">Infrastructure as a Service</a></p>
-                    <p><a href="#servicos">Platform as a Service</a></p>
-                    <p><a href="#servicos">Software as a Service</a></p>
-                    <p><a href="#servicos">Migração para Nuvem</a></p> -->
-                </div>
-                <div class="footer-section">
-                    <h3>Contato</h3>
-                    <p>E-mail: contato@pegmait.com.br</p>
-                    <p>Telefone: (11) 9999-9999</p>
-                    <!-- <p>Suporte 24/7 em Português</p> -->
+                    <form class="contact-form" id="contactForm">
+                        <div class="success-message" id="successMessage">
+                            Mensagem enviada com sucesso! Entraremos em contato em breve.
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <div class="error-message" id="nomeError">Por favor, informe seu nome completo.</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message" id="emailError">Por favor, informe um e-mail válido.</div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" placeholder="Conte-nos sobre suas necessidades em cloud computing..." required></textarea>
+                            <div class="error-message" id="mensagemError">Por favor, descreva suas necessidades.</div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; background: linear-gradient(135deg, var(--primary-green), var(--primary-blue));">
+                            <i class="fa-solid fa-paper-plane" size="18"></i>
+                            Falar com Especialista
+                        </button>
+                    </form>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 PEGMA IT. Todos os direitos reservados.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>PEGMA IT</h3>
+                        <p>Transformando empresas através da computação em nuvem com soluções inovadoras, seguras e escaláveis.</p>
+                    </div>
+                    <div class="footer-section">
+                        <!-- <h3>Serviços</h3>
+                        <p><a href="#servicos">Infrastructure as a Service</a></p>
+                        <p><a href="#servicos">Platform as a Service</a></p>
+                        <p><a href="#servicos">Software as a Service</a></p>
+                        <p><a href="#servicos">Migração para Nuvem</a></p> -->
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contato</h3>
+                        <p>E-mail: contato@pegmait.com.br</p>
+                        <p>Telefone: (11) 9999-9999</p>
+                        <!-- <p>Suporte 24/7 em Português</p> -->
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 PEGMA IT. Todos os direitos reservados.</p>
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
-
-        // Smooth scroll for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-            });
-        });
-
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all fade-in elements
-        document.querySelectorAll('.fade-in').forEach(el => {
-            observer.observe(el);
-        });
-
-        // Header scroll effect
-        let lastScrollTop = 0;
-        const header = document.querySelector('.header');
-
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop > 100) {
-                header.style.background = 'rgba(255, 255, 255, 0.95)';
-                header.style.backdropFilter = 'blur(10px)';
-            } else {
-                header.style.background = 'var(--white)';
-                header.style.backdropFilter = 'none';
-            }
-        });
-
-        // Form validation and submission
-        const contactForm = document.getElementById('contactForm');
-        const successMessage = document.getElementById('successMessage');
-
-        function showError(fieldId, message) {
-            const field = document.getElementById(fieldId);
-            const errorElement = document.getElementById(fieldId + 'Error');
-            
-            field.style.borderColor = '#dc3545';
-            errorElement.textContent = message;
-            errorElement.style.display = 'block';
-        }
-
-        function clearError(fieldId) {
-            const field = document.getElementById(fieldId);
-            const errorElement = document.getElementById(fieldId + 'Error');
-            
-            field.style.borderColor = '#e9ecef';
-            errorElement.style.display = 'none';
-        }
-
-        function validateEmail(email) {
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            return emailRegex.test(email);
-        }
-
-        // Clear errors on input
-        ['nome', 'email', 'mensagem'].forEach(fieldId => {
-            document.getElementById(fieldId).addEventListener('input', () => {
-                clearError(fieldId);
-            });
-        });
-
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Clear previous errors
-            ['nome', 'email', 'mensagem'].forEach(clearError);
-            successMessage.style.display = 'none';
-            
-            // Get form values
-            const nome = document.getElementById('nome').value.trim();
-            const email = document.getElementById('email').value.trim();
-            const empresa = document.getElementById('empresa').value.trim();
-            const mensagem = document.getElementById('mensagem').value.trim();
-            
-            let isValid = true;
-            
-            // Validate fields
-            if (!nome) {
-                showError('nome', 'Por favor, informe seu nome completo.');
-                isValid = false;
-            }
-            
-            if (!email) {
-                showError('email', 'Por favor, informe seu e-mail.');
-                isValid = false;
-            } else if (!validateEmail(email)) {
-                showError('email', 'Por favor, informe um e-mail válido.');
-                isValid = false;
-            }
-            
-            if (!mensagem) {
-                showError('mensagem', 'Por favor, descreva suas necessidades.');
-                isValid = false;
-            }
-            
-            if (isValid) {
-                // Simulate form submission
-                const submitButton = contactForm.querySelector('button[type="submit"]');
-                const originalText = submitButton.innerHTML;
-                
-                submitButton.innerHTML = '<i data-lucide="loader-2" size="18" style="animation: spin 1s linear infinite;"></i> Enviando...';
-                submitButton.disabled = true;
-                
-                // Recreate the loader icon
-                lucide.createIcons();
-                
-                setTimeout(() => {
-                    successMessage.style.display = 'block';
-                    contactForm.reset();
-                    
-                    submitButton.innerHTML = originalText;
-                    submitButton.disabled = false;
-                    
-                    // Recreate icons after reset
-                    lucide.createIcons();
-                    
-                    // Scroll to success message
-                    successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }, 2000);
-            }
-        });
-
-        // Mobile Menu Implementation
-        const mobileMenuToggle = document.getElementById('mobileMenuToggle');
-        const mobileMenuClose = document.getElementById('mobileMenuClose');
-        const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
-        const mobileMenuSidebar = document.getElementById('mobileMenuSidebar');
-        const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
-        const body = document.body;
-
-        function openMobileMenu() {
-            mobileMenuOverlay.classList.add('active');
-            mobileMenuSidebar.classList.add('active');
-            body.classList.add('mobile-menu-open');
-        }
-
-        function closeMobileMenu() {
-            mobileMenuOverlay.classList.remove('active');
-            mobileMenuSidebar.classList.remove('active');
-            body.classList.remove('mobile-menu-open');
-        }
-
-        // Event listeners for mobile menu
-        mobileMenuToggle.addEventListener('click', openMobileMenu);
-        mobileMenuClose.addEventListener('click', closeMobileMenu);
-        mobileMenuOverlay.addEventListener('click', closeMobileMenu);
-
-        // Close menu when clicking on links
-        mobileMenuLinks.forEach(link => {
-            link.addEventListener('click', closeMobileMenu);
-        });
-
-        // Close menu on ESC key
-        document.addEventListener('keydown', function(e) {
-            if (e.key === 'Escape' && mobileMenuSidebar.classList.contains('active')) {
-                closeMobileMenu();
-            }
-        });
-
-        // Handle window resize - close menu if opened and switching to desktop
-        window.addEventListener('resize', function() {
-            if (window.innerWidth > 768 && mobileMenuSidebar.classList.contains('active')) {
-                closeMobileMenu();
-            }
-        });
-
-        // Smooth scroll for mobile menu links
-        document.querySelectorAll('.mobile-menu-link[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    // Close menu first
-                    closeMobileMenu();
-                    // Small delay to allow menu to close, then scroll
-                    setTimeout(() => {
+        <script>
+            // Smooth scroll for navigation links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
                         target.scrollIntoView({
                             behavior: 'smooth',
                             block: 'start'
                         });
-                    }, 300);
+                    }
+                });
+            });
+
+            // Header scroll effect
+            let lastScrollTop = 0;
+            const header = document.querySelector('.header');
+
+            window.addEventListener('scroll', () => {
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                
+                if (scrollTop > 100) {
+                    header.style.background = 'rgba(255, 255, 255, 0.95)';
+                    header.style.backdropFilter = 'blur(10px)';
+                } else {
+                    header.style.background = 'var(--white)';
+                    header.style.backdropFilter = 'none';
                 }
             });
-        });
 
-        // Add spinning animation for loader
-        const style = document.createElement('style');
-        style.textContent = `
-            @keyframes spin {
-                from { transform: rotate(0deg); }
-                to { transform: rotate(360deg); }
+            // Form validation and submission
+            const contactForm = document.getElementById('contactForm');
+            const successMessage = document.getElementById('successMessage');
+
+            function showError(fieldId, message) {
+                const field = document.getElementById(fieldId);
+                const errorElement = document.getElementById(fieldId + 'Error');
+                
+                field.style.borderColor = '#dc3545';
+                errorElement.textContent = message;
+                errorElement.style.display = 'block';
             }
-        `;
-        document.head.appendChild(style);
 
-        // Initialize mobile menu icons
-        setTimeout(() => {
-            lucide.createIcons();
-        }, 100);
-    </script>
-</body>
+            function clearError(fieldId) {
+                const field = document.getElementById(fieldId);
+                const errorElement = document.getElementById(fieldId + 'Error');
+                
+                field.style.borderColor = '#e9ecef';
+                errorElement.style.display = 'none';
+            }
+
+            function validateEmail(email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+
+            // Clear errors on input
+            ['nome', 'email', 'mensagem'].forEach(fieldId => {
+                document.getElementById(fieldId).addEventListener('input', () => {
+                    clearError(fieldId);
+                });
+            });
+
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Clear previous errors
+                ['nome', 'email', 'mensagem'].forEach(clearError);
+                successMessage.style.display = 'none';
+                
+                // Get form values
+                const nome = document.getElementById('nome').value.trim();
+                const email = document.getElementById('email').value.trim();
+                const empresa = document.getElementById('empresa').value.trim();
+                const mensagem = document.getElementById('mensagem').value.trim();
+                
+                let isValid = true;
+                
+                // Validate fields
+                if (!nome) {
+                    showError('nome', 'Por favor, informe seu nome completo.');
+                    isValid = false;
+                }
+                
+                if (!email) {
+                    showError('email', 'Por favor, informe seu e-mail.');
+                    isValid = false;
+                } else if (!validateEmail(email)) {
+                    showError('email', 'Por favor, informe um e-mail válido.');
+                    isValid = false;
+                }
+                
+                if (!mensagem) {
+                    showError('mensagem', 'Por favor, descreva suas necessidades.');
+                    isValid = false;
+                }
+                
+                if (isValid) {
+                    // Simulate form submission
+                    const submitButton = contactForm.querySelector('button[type="submit"]');
+                    const originalText = submitButton.innerHTML;
+                    
+                    submitButton.innerHTML = '<i class="fa-solid fa-spinner" size="18" style="animation: spin 1s linear infinite;"></i> Enviando...';
+                    submitButton.disabled = true;
+                    
+                    setTimeout(() => {
+                        successMessage.style.display = 'block';
+                        contactForm.reset();
+                        
+                        submitButton.innerHTML = originalText;
+                        submitButton.disabled = false;
+                        
+                        // Scroll to success message
+                        successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    }, 2000);
+                }
+            });
+
+            // Mobile Menu Implementation
+            const mobileMenuToggle = document.getElementById('mobileMenuToggle');
+            const mobileMenuClose = document.getElementById('mobileMenuClose');
+            const mobileMenuOverlay = document.getElementById('mobileMenuOverlay');
+            const mobileMenuSidebar = document.getElementById('mobileMenuSidebar');
+            const mobileMenuLinks = document.querySelectorAll('.mobile-menu-link');
+            const body = document.body;
+
+            function openMobileMenu() {
+                mobileMenuOverlay.classList.add('active');
+                mobileMenuSidebar.classList.add('active');
+                body.classList.add('mobile-menu-open');
+            }
+
+            function closeMobileMenu() {
+                mobileMenuOverlay.classList.remove('active');
+                mobileMenuSidebar.classList.remove('active');
+                body.classList.remove('mobile-menu-open');
+            }
+
+            // Event listeners for mobile menu
+            mobileMenuToggle.addEventListener('click', openMobileMenu);
+            mobileMenuClose.addEventListener('click', closeMobileMenu);
+            mobileMenuOverlay.addEventListener('click', closeMobileMenu);
+
+            // Close menu when clicking on links
+            mobileMenuLinks.forEach(link => {
+                link.addEventListener('click', closeMobileMenu);
+            });
+
+            // Close menu on ESC key
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && mobileMenuSidebar.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+
+            // Handle window resize - close menu if opened and switching to desktop
+            window.addEventListener('resize', function() {
+                if (window.innerWidth > 768 && mobileMenuSidebar.classList.contains('active')) {
+                    closeMobileMenu();
+                }
+            });
+
+            // Smooth scroll for mobile menu links
+            document.querySelectorAll('.mobile-menu-link[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        // Close menu first
+                        closeMobileMenu();
+                        // Small delay to allow menu to close, then scroll
+                        setTimeout(() => {
+                            target.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
+                            });
+                        }, 300);
+                    }
+                });
+            });
+
+            // Add spinning animation for loader
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes spin {
+                    from { transform: rotate(0deg); }
+                    to { transform: rotate(360deg); }
+                }
+            `;
+            document.head.appendChild(style);
+        </script>
+    </body>
 </html>
