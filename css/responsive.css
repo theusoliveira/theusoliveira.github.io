@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .section-main h1 {
+    font-size: 40px;
+  }
+
+  .description {
+    font-size: 11px;
+  }
+
+  h4 {
+    font-size: 1.2rem !important;
+  }
+
+  h5 {
+    font-size: 1rem !important;
+  }
+
+  p {
+    font-size: .8rem !important;
+  }
+
+  .section-aboutme {
+    padding-top: 5rem;
+  }
+
+  .photo-aboutme img {
+    width: 90%;
+  }
+
+  .section-experience {
+    padding-top: 10rem;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-height: 568px) {
+  .section-main h1 {
+    font-size: 35px;
+  }
+
+  .description {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
